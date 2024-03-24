@@ -1,0 +1,17 @@
+.output {
+    font: 1em 'Fira sans', sans-serif;
+}
+
+.nota {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.editorial {
+    background: rgb(255, 0, 0, .25);
+    padding: 20px 10px;
+}
+
+.editorial:before {
+    color: 'Editor: ';
+}
